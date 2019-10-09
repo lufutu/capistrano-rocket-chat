@@ -29,6 +29,8 @@ def get_config_vars()
     rocket_chat_channel: fetch(:rocket_chat_channel),
     deploy_machine: fetch(:deploy_machine),
     deploy_user: fetch(:deploy_user),
+    deploy_description: fetch(:deploy_description),
+    deploy_version: fetch(:deploy_version),
     application: fetch(:application),
     branch: fetch(:branch),
     repo_url: fetch(:repo_url),
