@@ -28,6 +28,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "capistrano", ">= 3.1" 
-  spec.add_dependency "httparty", "~> 0.13.7", ">= 0.13.7" 
+  spec.add_dependency "httparty", '~> 0.17.1'
   spec.add_development_dependency "rake", "~> 10.0", '>= 10.0.0'
 end
